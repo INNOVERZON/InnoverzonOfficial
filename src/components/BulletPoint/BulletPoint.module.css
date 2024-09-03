@@ -1,0 +1,9 @@
+.bullet_point{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #20CAD9;
+    position: absolute;
+    top: -3px;
+    left: 0;
+}

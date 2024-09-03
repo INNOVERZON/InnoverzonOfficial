@@ -1,0 +1,10 @@
+.bullet_point_line{
+    width:60px;
+    height:2px;
+    background-color: #A4D907;
+    position: absolute;
+    left:15px;
+}
+.BulletLine_container{
+    position:absolute;
+}

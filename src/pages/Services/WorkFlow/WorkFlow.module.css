@@ -1,0 +1,30 @@
+.workflow_container{
+    background-color: #000;
+    color:#ffff;
+    margin:0;
+    padding:40px 60px 0;
+}
+.title{
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    display: flex;
+    align-items: baseline;
+    color:#4f4f4f;
+}
+.title div span{
+    font-size: 36px;
+}
+.workflow_content{
+    font-size: 24px;
+    font-family: "Aoboshi One", sans-serif;
+    text-align: start;
+    margin-top: 20px;
+}
+.workflow_image{
+    width:80%;
+    margin: 0 auto;
+}
+.workflow_image img{
+    width:100%;
+}

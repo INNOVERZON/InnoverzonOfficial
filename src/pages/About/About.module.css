@@ -1,0 +1,82 @@
+.about_container{
+    background-color: #000;
+    color:#ffff;
+    margin:0;
+    padding:40px 60px 0;
+}
+.title div span{
+    font-size: 36px;
+}
+.title{
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    display: flex;
+    align-items: baseline;
+    color:#4f4f4f;
+}
+.about_content{
+    display: flex;
+    padding: 20px 0;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.about_content_left{
+    width:60%;
+    font-size: 24px;
+    font-family: "Aoboshi One", sans-serif;
+    text-align: start;
+}
+.about_content_right{
+    width:400px;
+}
+.about_content_right img{
+    width:100%;
+}
+.mission_vision{
+    width:100%;
+    display: flex;
+    font-size: 24px;
+    font-family: "Aoboshi One", sans-serif;
+}
+.mission_vision_image{
+    width:420px;
+}
+.mission_vision_image img{
+    width:100%;
+}
+
+.mission_vision_image_container{
+    width:50%;
+}
+.mission_content_outer{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.mission_content, .vision_content{
+    width:46%;
+    text-align: start;
+}
+
+.mission_content div, .vision_content div{
+    text-align: center;
+    font-family: "Alegreya Sans Sc", sans-serif;
+    font-weight: 500;
+    color:#4f4f4f;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.mission_content div span, .vision_content div span{
+    font-size: 36px;
+}
+.divider{
+   margin-top: 35px;
+   height:80%;
+}
+.divider img{
+    height:100%;
+}
+
