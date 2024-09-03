@@ -18,7 +18,7 @@ const WorkFlow = () =>{
                 </div>
             </div>
             <div className={style.workflow_image}>
-                <img src={workflow} alt="WorkFlow Image"/>
+                <img src={workflow} alt=""/>
             </div>
         </div>
     )

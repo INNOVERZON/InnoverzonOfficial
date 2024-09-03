@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../../containers/Header/Header";
 import style from "./Home.module.css";
 import BulletPoint from "../../components/BulletPoint/BulletPoint";
 import BulletPointLine from "../../components/BulletPointLine/BulletPointLine";

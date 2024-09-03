@@ -161,11 +161,11 @@ const Contact = () =>{
                 </div>
                 <div className={style.contact_details}>
                     <div className={style.mail}>
-                        <a href={`mailto:innoverzon2024@gmail.com`} target="_blank">innoverzon2024@gmail.com</a>
+                        <a href={`mailto:innoverzon2024@gmail.com`} target="_blank"  rel="noopener noreferrer">innoverzon2024@gmail.com</a>
                     </div>
                     <div className={style.uderline}></div>
                     <div className={style.contact_no}>
-                        <a href={`tel:${9894488655}`} > +91 9894488655</a> &nbsp; / &nbsp; <a href={`tel:${7397014485}`}>+91 7397014485</a>
+                        <a href={`tel:${9894488655}`} target="_blank"  rel="noopener noreferrer" > +91 9894488655</a> &nbsp; / &nbsp; <a href={`tel:${7397014485}`} target="_blank"  rel="noopener noreferrer">+91 7397014485</a>
                     </div>
                     <div className={style.socialmedia}>
                         <div>
@@ -184,17 +184,17 @@ const Contact = () =>{
                             </a>
                         </div>
                         <div>
-                            <a href="" target="" rel="noopener noreferrer" >
+                            <a >
                                 <img src={twitter}  alt="Twitter/X"/>
                             </a>
                         </div>
                         <div>
-                            <a href="" target="" rel="noopener noreferrer" >
+                            <a  >
                                 <img src={youtube}  alt="Youtube"/>
                             </a>
                         </div>
                         <div>
-                            <a href="" target="" rel="noopener noreferrer" >
+                            <a  >
                                 <img src={linkedin}  alt="LinkedIn"/>
                             </a>
                         </div>
