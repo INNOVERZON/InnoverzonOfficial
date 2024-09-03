@@ -184,17 +184,17 @@ const Contact = () =>{
                             </a>
                         </div>
                         <div>
-                            <a >
+                            <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={twitter}  alt="Twitter/X"/>
                             </a>
                         </div>
                         <div>
-                            <a  >
+                            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" >
                                 <img src={youtube}  alt="Youtube"/>
                             </a>
                         </div>
                         <div>
-                            <a  >
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={linkedin}  alt="LinkedIn"/>
                             </a>
                         </div>
