@@ -28,3 +28,14 @@
 .workflow_image img{
     width:100%;
 }
+
+@media screen and (max-width: 767px) {
+    .workflow_container{
+        padding: 40px 30px 0 30px;
+    }
+
+    .workflow_image {
+        margin-top: 20px;
+        width: 100%;
+    }
+}

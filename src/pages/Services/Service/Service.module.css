@@ -60,3 +60,38 @@
     box-shadow: 0 0px 20px rgb(255 255 255 / 60%);
     border-radius: 50%;
   }
+
+  @media screen and (max-width: 767px) {
+
+    .service_container{
+        padding: 40px 30px 0 30px;
+    }
+
+    .service_content {
+        flex-direction: column;
+    }
+
+    .service_content_right {
+        padding-top: 30px;
+    }
+    .service_content_right img, .service_content_left {
+        width: 100%;
+    }
+
+    .service_listing {
+        font-size: 18px;
+        justify-content: flex-start;
+        height: 80vh;
+    }
+
+    .service_listing > div {
+        flex-wrap: wrap;
+    }
+
+    .row_items {
+        width: 50%;
+    }
+    .row_items > div:last-child {
+        margin-bottom: 35px;
+    }
+  }

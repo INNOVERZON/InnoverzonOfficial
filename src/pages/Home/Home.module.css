@@ -9,6 +9,7 @@
     height:100vh;
     background-image: url(../../assets/images/home-page-bg.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .home_content{
     display: flex;
@@ -98,4 +99,31 @@
 
 .about_text:hover, .service_text:hover, .contact_text:hover{
     color:#A4D907;
+}
+
+@media screen and (max-width: 767px) {
+
+    .home_container{
+        height: auto;
+        background-size: cover;
+    }
+
+    .main_desc {
+        font-size: 55px;
+    }
+
+    .home_sub_left{
+        padding-top: 30px;
+    }
+    
+    .home_sub_right {
+        padding-top: 45px;
+    }
+
+    .home_description {
+        width: 100%;
+    }
+    .menu_bar {
+        display: none;
+    }
 }
