@@ -80,3 +80,50 @@
     height:100%;
 }
 
+@media screen and (max-width: 767px) {
+
+    .about_container {
+        padding: 40px 30px 0 30px;
+    }
+    .about_content {
+        flex-direction: column-reverse;
+
+    }
+    .about_content_left, .mission_content_outer, .about_content_right, 
+    .mission_vision_image_container, .mission_content, .vision_content  {
+        width: 100%;
+    }
+
+    .mission_vision_image_container, .mission_content_outer {
+        padding-top: 30px;
+    }
+    
+    .mission_vision_image {
+        width: auto;
+    }
+
+    .about_content_right {
+        padding-bottom: 20px;
+    }
+
+    .mission_vision, .mission_content_outer {
+        flex-direction: column;
+    }
+
+    .mission_content_outer {
+        position: relative;
+    }
+
+    .vision_content {
+        padding-top: 100px;
+    }
+
+    .divider {
+        transform: rotate(90deg);
+        position: absolute;
+        top: 185px;
+        height: 50%;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
