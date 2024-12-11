@@ -161,11 +161,11 @@ const Contact = () =>{
                 </div>
                 <div className={style.contact_details}>
                     <div className={style.mail}>
-                        <a href={`mailto:innoverzon2024@gmail.com`} target="_blank"  rel="noopener noreferrer">innoverzon2024@gmail.com</a>
+                        <a href={`mailto:innoverzoninfo@gmail.com`} target="_blank"  rel="noopener noreferrer">innoverzoninfo@gmail.com</a>
                     </div>
                     <div className={style.uderline}></div>
                     <div className={style.contact_no}>
-                        <a href={`tel:${9894488655}`} target="_blank"  rel="noopener noreferrer" > +91 9894488655</a> &nbsp; / &nbsp; <a href={`tel:${7397014485}`} target="_blank"  rel="noopener noreferrer">+91 7397014485</a>
+                        <a href={`tel:${9894488655}`} target="_blank"  rel="noopener noreferrer" > +91 9894488655</a> &nbsp; / &nbsp; <a href={`tel:${9095408588}`} target="_blank"  rel="noopener noreferrer">+91 9095408588</a>
                     </div>
                     <div className={style.socialmedia}>
                         <div>
@@ -174,17 +174,17 @@ const Contact = () =>{
                             </a>
                         </div>
                         <div>
-                            <a href="https://www.facebook.com/share/Nwxc3tp8vYwPvggh/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer" >
+                            <a href="https://www.facebook.com/Innoverzon" target="_blank" rel="noopener noreferrer" >
                                 <img src={facebook}  alt="Facebook"/>
                             </a>
                         </div>
                         <div>
-                            <a href="https://www.instagram.com/innoverzon?igsh=NDVuOWxkOTlwdmV4" target="_blank" rel="noopener noreferrer" >
+                            <a href="https://www.instagram.com/innoverzon/" target="_blank" rel="noopener noreferrer" >
                                 <img src={instagram}  alt="Instagram"/>
                             </a>
                         </div>
                         <div>
-                            <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://x.com/innoverzon" target="_blank" rel="noopener noreferrer">
                                 <img src={twitter}  alt="Twitter/X"/>
                             </a>
                         </div>
@@ -194,7 +194,7 @@ const Contact = () =>{
                             </a>
                         </div>
                         <div>
-                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/company/104946439/admin/dashboard/" target="_blank" rel="noopener noreferrer">
                                 <img src={linkedin}  alt="LinkedIn"/>
                             </a>
                         </div>
