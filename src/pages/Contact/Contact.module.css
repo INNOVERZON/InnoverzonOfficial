@@ -139,3 +139,47 @@
     font-weight: lighter;
     color: rgb(201, 106, 106);
 }
+
+@media screen and (max-width: 767px) {
+
+    .contact_container {
+        padding: 40px 30px 0 30px;
+    }
+
+    .contact_content, .footer  {
+        flex-direction: column;
+    }
+
+    .contact_content_left, .contact_content_right img  {
+        width: 100%;
+    }
+
+    .footer {
+        align-items: center;
+    }
+
+    .contact_content_right {
+        padding-top: 30px;
+    }
+    .contact_details {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact_form input{
+        width: 94%;
+    }
+
+    .send_button {
+        width: 80%;
+        margin: 20px auto 0;
+    }
+
+    .mail {
+        font-size: 25px;
+    }
+
+    .copyright {
+        padding-bottom: 20px;
+    }
+}
